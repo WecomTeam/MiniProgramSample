@@ -2,6 +2,10 @@
 
 本示例代码将展示企业微信小程序特有的 `jsapi` 能力接口，关于企业微信小程序相关的更多信息请查阅 [小程序开发](https://work.weixin.qq.com/api/doc/90000/90136/92455)。
 
+
+<img src="https://wwcdn.weixin.qq.com/node/wework/images/wecom-temp-3694134a7fc2e4bb2d5fe1f5308a08ef.d9053b79db.jpg" alt="小程序示例代码" width="375"/>
+
+
 ## 接口列表
 
 在本示例代码中，主要涉及到以下场景和接口：
