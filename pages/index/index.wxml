@@ -1,0 +1,203 @@
+<view class="page">  
+    <view class="page__bd page__bd_spacing">
+        <view class="kind-list">         
+        	<view class="kind-list__item">
+				<view class="weui-flex kind-list__item-hd kind-list__item-hd_show" id="form">
+					<view class="weui-flex__item">身份接口</view>
+					
+				</view>			
+				<view class="kind-list__item-bd kind-list__item-bd_show">
+					<view class="weui-cells weui-cells_show" bindtap='onBindQyLogin' hover-class='hoverclass'>
+						<view class="weui-cell weui-cell_access">
+							<view class="weui-cell__bd"> wx.qy.login </view>
+							<view class="weui-cell__ft weui-cell__ft_in-access"></view>
+						</view>
+					</view>
+				</view>
+				<view class="kind-list__item-bd kind-list__item-bd_show">
+					<view class="weui-cells weui-cells_show" bindtap='onBindCodeToSession' hover-class='hoverclass'>
+						<view class="weui-cell weui-cell_access">
+							<view class="weui-cell__bd">code2session</view>
+							<view class="weui-cell__ft weui-cell__ft_in-access"></view>
+						</view>
+					</view>
+				</view>
+				<view class="kind-list__item-bd kind-list__item-bd_show">
+					<view class="weui-cells weui-cells_show" bindtap='onBindCheckSession' hover-class='hoverclass'>
+						<view class="weui-cell weui-cell_access">
+							<view class="weui-cell__bd">wx.qy.checkSession</view>
+							<view class="weui-cell__ft weui-cell__ft_in-access"></view>
+						</view>
+					</view>
+				</view>
+			</view>
+        </view>
+
+        <view class="kind-list">         
+        	<view class="kind-list__item">
+				<view class="weui-flex kind-list__item-hd kind-list__item-hd_show" id="form">
+					<view class="weui-flex__item">用户信息</view>
+					
+				</view>			
+				<view class="kind-list__item-bd kind-list__item-bd_show">
+					<view class="weui-cells weui-cells_show" bindtap='onBindGetEnterpriseUserInfo' hover-class='hoverclass'>
+						<view class="weui-cell weui-cell_access">
+							<view class="weui-cell__bd"> wx.qy.getEnterpriseUserInfo </view>
+							<view class="weui-cell__ft weui-cell__ft_in-access"></view>
+						</view>
+					</view>
+				</view>
+				<view class="kind-list__item-bd kind-list__item-bd_show">
+					<view class="weui-cells weui-cells_show" bindtap='onBindGetAvatar' hover-class='hoverclass'>
+						<view class="weui-cell weui-cell_access">
+							<view class="weui-cell__bd">wx.qy.getAvatar</view>
+							<view class="weui-cell__ft weui-cell__ft_in-access"></view>
+						</view>
+					</view>
+				</view>
+				<view class="kind-list__item-bd kind-list__item-bd_show">
+					<view class="weui-cells weui-cells_show" bindtap='onBindGetQrCode' hover-class='hoverclass'>
+						<view class="weui-cell weui-cell_access">
+							<view class="weui-cell__bd">wx.qy.getQrCode</view>
+							<view class="weui-cell__ft weui-cell__ft_in-access"></view>
+						</view>
+					</view>
+				</view>
+				<view class="kind-list__item-bd kind-list__item-bd_show">
+					<view class="weui-cells weui-cells_show" bindtap='onBindGetMobile' hover-class='hoverclass'>
+						<view class="weui-cell weui-cell_access">
+							<view class="weui-cell__bd">wx.qy.getMobile</view>
+							<view class="weui-cell__ft weui-cell__ft_in-access"></view>
+						</view>
+					</view>
+				</view>
+				<view class="kind-list__item-bd kind-list__item-bd_show">
+					<view class="weui-cells weui-cells_show" bindtap='onBindGetEmail' hover-class='hoverclass'>
+						<view class="weui-cell weui-cell_access">
+							<view class="weui-cell__bd">wx.qy.getEmail</view>
+							<view class="weui-cell__ft weui-cell__ft_in-access"></view>
+						</view>
+					</view>
+				</view>
+			</view>
+		</view>
+		
+        <view class="kind-list">         
+        	<view class="kind-list__item">
+				<view class="weui-flex kind-list__item-hd kind-list__item-hd_show" id="form">
+					<view class="weui-flex__item">企业通讯录与会话</view>
+					
+				</view>			
+				<view class="kind-list__item-bd kind-list__item-bd_show">
+					<view class="weui-cells weui-cells_show" bindtap='onBindSelectEnterpriseContact' hover-class='hoverclass'>
+						<view class="weui-cell weui-cell_access">
+							<view class="weui-cell__bd"> wx.qy.selectEnterpriseContact </view>
+							<view class="weui-cell__ft weui-cell__ft_in-access"></view>
+						</view>
+					</view>
+				</view>
+				<view class="kind-list__item-bd kind-list__item-bd_show">
+					<view class="weui-cells weui-cells_show" bindtap='onBindOpenEnterpriseChat' hover-class='hoverclass'>
+						<view class="weui-cell weui-cell_access">
+							<view class="weui-cell__bd">wx.qy.openEnterpriseChat</view>
+							<view class="weui-cell__ft weui-cell__ft_in-access"></view>
+						</view>
+					</view>
+				</view>
+				<view class="kind-list__item-bd kind-list__item-bd_show">
+					<view class="weui-cells weui-cells_show" bindtap='onBindSelectExternalContact' hover-class='hoverclass'>
+						<view class="weui-cell weui-cell_access">
+							<view class="weui-cell__bd">wx.qy.selectExternalContact</view>
+							<view class="weui-cell__ft weui-cell__ft_in-access"></view>
+						</view>
+					</view>
+				</view>
+				<view class="kind-list__item-bd kind-list__item-bd_show">
+					<view class="weui-cells weui-cells_show" bindtap='onBindGetCurExternalContact' hover-class='hoverclass'>
+						<view class="weui-cell weui-cell_access">
+							<view class="weui-cell__bd">wx.qy.getCurExternalContact</view>
+							<view class="weui-cell__ft weui-cell__ft_in-access"></view>
+						</view>
+					</view>
+				</view>
+				<view class="kind-list__item-bd kind-list__item-bd_show">
+					<view class="weui-cells weui-cells_show" bindtap='onBindOpenUserProfile' hover-class='hoverclass'>
+						<view class="weui-cell weui-cell_access">
+							<view class="weui-cell__bd">wx.qy.openUserProfile</view>
+							<view class="weui-cell__ft weui-cell__ft_in-access"></view>
+						</view>
+					</view>
+				</view>
+			</view>
+        </view>
+
+        <view class="kind-list">         
+        	<view class="kind-list__item">
+				<view class="weui-flex kind-list__item-hd kind-list__item-hd_show" id="form">
+					<view class="weui-flex__item">NFC接口</view>
+					
+				</view>			
+				<view class="kind-list__item-bd kind-list__item-bd_show">
+					<view class="weui-cells weui-cells_show" bindtap='onBindGetNFCReaderState' hover-class='hoverclass'>
+						<view class="weui-cell weui-cell_access">
+							<view class="weui-cell__bd"> wx.qy.getNFCReaderState </view>
+							<view class="weui-cell__ft weui-cell__ft_in-access"></view>
+						</view>
+					</view>
+				</view>
+				<view class="kind-list__item-bd kind-list__item-bd_show">
+					<view class="weui-cells weui-cells_show" bindtap='onBindStartNFCReader' hover-class='hoverclass'>
+						<view class="weui-cell weui-cell_access">
+							<view class="weui-cell__bd">wx.qy.startNFCReader</view>
+							<view class="weui-cell__ft weui-cell__ft_in-access"></view>
+						</view>
+					</view>
+				</view>
+				<view class="kind-list__item-bd kind-list__item-bd_show">
+					<view class="weui-cells weui-cells_show" bindtap='onBindStopNFCReader' hover-class='hoverclass'>
+						<view class="weui-cell weui-cell_access">
+							<view class="weui-cell__bd">wx.qy.stopNFCReader</view>
+							<view class="weui-cell__ft weui-cell__ft_in-access"></view>
+						</view>
+					</view>
+				</view>				
+			</view>
+		</view>
+		
+		<view class="kind-list">         
+        	<view class="kind-list__item">
+				<view class="weui-flex kind-list__item-hd kind-list__item-hd_show" id="form">
+					<view class="weui-flex__item">系统设置</view>
+					
+				</view>			
+				<view class="kind-list__item-bd kind-list__item-bd_show">					
+					<view class="weui-cells weui-cells_show" bindtap='onBindGetSystemInfo' hover-class='hoverclass'>
+						<view class="weui-cell weui-cell_access">
+							<view class="weui-cell__bd"> wx.qy.getSystemInfo </view>
+							<view class="weui-cell__ft weui-cell__ft_in-access"></view>
+						</view>
+					</view>
+					<view class="weui-cells weui-cells_show" bindtap='onBindGetWxSystemInfoSync' hover-class='hoverclass'>
+						<view class="weui-cell weui-cell_access">
+							<view class="weui-cell__bd"> wx.getSystemInfoSync </view>
+							<view class="weui-cell__ft weui-cell__ft_in-access"></view>
+						</view>
+					</view>
+					<view class="weui-cells weui-cells_show" bindtap='onBindGetWxSystemInfo' hover-class='hoverclass'>
+						<view class="weui-cell weui-cell_access">
+							<view class="weui-cell__bd"> wx.getSystemInfo </view>
+							<view class="weui-cell__ft weui-cell__ft_in-access"></view>
+						</view>
+					</view>
+					<view class="weui-cells weui-cells_show" bindtap='onBindGetSDKVersion' hover-class='hoverclass'>
+						<view class="weui-cell weui-cell_access">
+							<view class="weui-cell__bd"> SDK Version </view>
+							<view class="weui-cell__ft weui-cell__ft_in-access"></view>
+						</view>
+					</view>
+				</view>				
+			</view>
+        </view>
+    </view>
+
+</view>

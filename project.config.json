@@ -1,0 +1,77 @@
+{
+    "description": "项目配置文件",
+    "packOptions": {
+        "ignore": []
+    },
+    "setting": {
+        "urlCheck": false,
+        "es6": true,
+        "enhance": true,
+        "postcss": true,
+        "preloadBackgroundData": false,
+        "minified": true,
+        "newFeature": true,
+        "coverView": true,
+        "nodeModules": false,
+        "autoAudits": false,
+        "showShadowRootInWxmlPanel": true,
+        "scopeDataCheck": false,
+        "uglifyFileName": false,
+        "checkInvalidKey": true,
+        "checkSiteMap": true,
+        "uploadWithSourceMap": true,
+        "compileHotReLoad": false,
+        "lazyloadPlaceholderEnable": false,
+        "useMultiFrameRuntime": true,
+        "useApiHook": true,
+        "useApiHostProcess": true,
+        "babelSetting": {
+            "ignore": [],
+            "disablePlugins": [],
+            "outputPath": ""
+        },
+        "enableEngineNative": false,
+        "useIsolateContext": true,
+        "userConfirmedBundleSwitch": false,
+        "packNpmManually": false,
+        "packNpmRelationList": [],
+        "minifyWXSS": true,
+        "showES6CompileOption": false
+    },
+    "compileType": "miniprogram",
+    "libVersion": "2.4.2",
+    "appid": "wx7204929fcb2595d6",
+    "projectname": "%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E7%A4%BA%E4%BE%8B%E4%BB%A3%E7%A0%81",
+    "debugOptions": {
+        "hidedInDevtools": []
+    },
+    "isGameTourist": false,
+    "simulatorType": "qywx_simulator_plugin",
+    "simulatorPluginLibs": {
+        "qywx": {
+            "0.1": {
+                "version": "0.1",
+                "signature": "OpeqQ3INYIfAr2ZZu945d/JbUg8MPE2JlvrZ/0ts2+U7j3E1nw5lrIKUgh6790x0NYTK9vwJl6wyK99mJ5439i3NimK9NXoogTOnr/R5Jv8Fx8nDrLuTgb9tICCT6qqXwd9W1O0QV8HDh0KQcY7EOCVZo/bshOXSmvBVk+pTOf8=",
+                "url": "下载地址"
+            }
+        }
+    },
+    "simulatorPluginLibVersion": {
+        "qywx_simulator_plugin": "2.4.0"
+    },
+    "condition": {
+        "search": {
+            "list": []
+        },
+        "conversation": {
+            "list": []
+        },
+        "game": {
+            "currentL": -1,
+            "list": []
+        },
+        "miniprogram": {
+            "list": []
+        }
+    }
+}
