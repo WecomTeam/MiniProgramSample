@@ -32,9 +32,10 @@ Page({
     onBindCodeToSession: function () {        
         if (codeCache) {
             wx.showLoading();
-
+            let corpid = '';
+            let corpsecret = '';
             wx.request({
-                url: 'https://qyapi.weixin.qq.com/cgi-bin/gettoken?corpid=wwd6caf1ae7fe4633e&corpsecret=r0HDvR0R2e20A3MF8lCEGXll-MHXPEbvp0HhVLtMK70',
+                url: 'https://qyapi.weixin.qq.com/cgi-bin/gettoken?corpid=' + corpid + '&corpsecret=' + corpsecret,
                 success: function(res) {
                     wx.hideLoading();
 
